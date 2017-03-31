@@ -466,7 +466,7 @@ navigation start
   z-index: 999;
   width: 100%;
   left: 0;
-  padding: 10px 0;
+  /*padding: 10px 0;*/
   border-bottom: 1px solid #eee;
 }
 
@@ -867,9 +867,9 @@ Pricing tables
 Portfolio styles
 */
 .work-header {
-  padding-top: 100px;
-  padding-bottom: 80px;
-  background: #0992bf;
+  padding-top: 65px;
+  padding-bottom: 10px;
+  background: #333;
 }
 .work-header .center-title {
   color: #fff;
@@ -1013,7 +1013,7 @@ Footer styles
 */
 .footer {
   padding-top: 30px;
-  background: #222;
+  background: #333;
 }
 .footer span {
   color: #fff;
@@ -1032,7 +1032,7 @@ Footer styles
 
 /*personal template preloader**/
 div#preloader {
-  background: #fff url("../images/personal-loader.gif") no-repeat center center;
+  background: #fff url("../images/default.svg") no-repeat center center;
 }
 
 /**parallax hero**/
