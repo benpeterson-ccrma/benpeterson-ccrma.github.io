@@ -59,7 +59,7 @@ a, button {
 }
 
 a {
-  color: #0992bf;
+  color: #dbd342;
 }
 a:hover {
   color: #aeaeae;
@@ -108,7 +108,7 @@ h6 {
 .border-width {
   width: 60px;
   height: 2px;
-  background: #0992bf;
+  background: #dbd342;
   margin: 10px 0;
 }
 
@@ -201,7 +201,7 @@ h6 {
 }
 
 .skin-bg {
-  background-color: #0992bf;
+  background-color: #dbd342;
 }
 
 .gray-bg {
@@ -225,12 +225,12 @@ h6 {
   -moz-box-shadow: none;
   -ms-box-shadow: none;
   box-shadow: none;
-  border-bottom-color: #0992bf;
+  border-bottom-color: #dbd342;
 }
 
 .dropcap:first-letter {
   font-size: 30px;
-  color: #0992bf;
+  color: #dbd342;
 }
 
 /**********back to top*************/
@@ -239,7 +239,7 @@ h6 {
   font-size: 30px;
   background: transparent;
   font-weight: bold;
-  color: #0992bf;
+  color: #dbd342;
   text-decoration: none;
   position: fixed;
   bottom: 10px;
@@ -256,7 +256,7 @@ h6 {
 .scrollToTop:hover {
   text-decoration: none;
   opacity: 1;
-  color: #0992bf;
+  color: #dbd342;
 }
 
 /**preloader**/
@@ -305,7 +305,7 @@ div#preloader {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  background: #0992bf;
+  background: #dbd342;
   position: absolute;
   left: 50%;
   margin-left: -4px;
@@ -313,7 +313,7 @@ div#preloader {
 }
 
 .text-color {
-  color: #0992bf;
+  color: #dbd342;
 }
 
 .video-link {
@@ -902,7 +902,7 @@ Portfolio styles
 }
 
 .cbp-popup-singlePage .cbp-popup-navigation-wrap {
-  background-color: #0992bf;
+  background-color: #dbd342;
 }
 
 .cbp-l-filters-work .cbp-filter-item:hover {
