@@ -1417,6 +1417,17 @@ div#preloader {
     opacity: 1;
   }
 }
+
+cbp-popup-singlePage .cbp-popup-navigation-wrap {
+    z-index: 99999;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
 /*******Responsive style**************/
 @media (max-width: 991px) {
   .slider-banner .slider-table .slider-vm h1 {
