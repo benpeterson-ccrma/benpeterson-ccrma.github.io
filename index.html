@@ -10,7 +10,7 @@
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/ionicons/css/ionicons.min.css" rel="stylesheet">        
         <link href="assets/bower_components/flexslider/flexslider.css" rel="stylesheet">
-        <link href="assets/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"> 
         <link rel='stylesheet' type="text/css" href="assets/dzsparallaxer/dzsparallaxer.css"/>
         <link href="assets/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
         <!--main css file-->
@@ -204,7 +204,7 @@
             <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(assets/images/fountainsquare.jpg)">
             </div>
             <div class=" parallax-text text-center center-it">
-                <h2>" A parallax section for your great lines. Its Amazing "</h2>
+                <!--<h2>" A parallax section for your great lines. Its Amazing "</h2>-->
             </div>
         </div>
         <!-- End Parallax -->
@@ -214,7 +214,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 margin-b-50">
-                        <h2 class="center-title">What I do</h2>
+                        <h2 class="center-title scrollReveal sr-bottom">What I Do</h2>
                         <div class="center-border"></div>
                     </div>
                 </div><!--row end-->
@@ -386,7 +386,8 @@
         <!-- Parallax -->
         <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
 
-            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(assets/images/code.jpeg)">
+            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(&quot;assets/images/code.jpeg&quot;); transform: translate3d(0px, -90.452px, 0px); background-position: -179px center;">
+            </div>
             </div>
             <div class=" parallax-text text-center center-it">
                 <div class="testi-slider">
@@ -424,10 +425,12 @@
         <!--portfolio start-->
         <section id="work">
             <div class="work-header">
-                <div class="container">
+                <div class="work-margin">
+                <div class="container">                    
                     <h2 class="center-title scrollReveal sr-bottom">My Work</h2>
                     <div class="center-border"></div>
                     <p class="text-center margin-b-20">Present your work in beautiful way </p>
+                </div>
                 </div>
             </div><!--work header-->
             <!--filter start-->
@@ -437,7 +440,7 @@
                         SHOW ALL
                     </div>
                     <div data-filter=".identity" class="cbp-filter-item">
-                        IDENTITY <div class="cbp-filter-counter"></div>
+                        .NET <div class="cbp-filter-counter"></div>
                     </div>
                     <div data-filter=".web-design" class="cbp-filter-item">
                         WEB DESIGN <div class="cbp-filter-counter"></div>
@@ -451,24 +454,24 @@
                 </div><!--filter nav end-->
 
                 <div id="js-grid-awesome-work" class="cbp cbp-l-grid-work">
-                    <div class="cbp-item identity">
+                    <div class="cbp-item web-design">
                         <a href="assets/ajax-awesome-work/project1.html" class="cbp-caption cbp-singlePage" rel="nofollow">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/images/w1.jpg" alt="">
+                                <img src="assets/images/circuit800.jpg" alt="">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                         </a>
                         <a href="assets/ajax-awesome-work/project1.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">WebStore</a>
-                        <div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
+                        <div class="cbp-l-grid-work-desc">Web Design / HTML</div>
                     </div><!--work item-->
-                    <div class="cbp-item web-design logos">
+                    <div class="cbp-item identity">
                         <a href="assets/ajax-awesome-work/project2.html" class="cbp-caption cbp-singlePage" rel="nofollow">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/images/w2.jpg" alt="">
+                                <img src="assets/images/space800.jpeg" alt="">
                             </div>
                             <div class="cbp-caption-activeWrap"></div>
                         </a>
-                        <a href="assets/ajax-awesome-work/project2.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Console App</a>
+                        <a href="assets/ajax-awesome-work/project2.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Adventure Game</a>
                         <div class="cbp-l-grid-work-desc">Console / C#</div>
                     </div><!--work item-->
                     <div class="cbp-item graphic logos">
@@ -481,7 +484,7 @@
                         <a href="assets/ajax-awesome-work/project3.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
                         <div class="cbp-l-grid-work-desc">Graphic / Logo</div>
                     </div><!--work item-->
-                    <div class="cbp-item web-design graphic">
+                    <!--<div class="cbp-item web-design graphic">
                         <a href="assets/ajax-awesome-work/project4.html" class="cbp-caption cbp-singlePage" rel="nofollow">
                             <div class="cbp-caption-defaultWrap">
                                 <img src="assets/images/w4.jpg" alt="">
@@ -490,8 +493,8 @@
                         </a>
                         <a href="assets/ajax-awesome-work/project4.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
                         <div class="cbp-l-grid-work-desc">Web Design / Graphic</div>
-                    </div><!--work item-->
-                    <div class="cbp-item identity web-design">
+                    </div>--><!--work item-->
+                    <!--<div class="cbp-item identity web-design">
                         <a href="assets/ajax-awesome-work/project5.html" class="cbp-caption cbp-singlePage" rel="nofollow">
                             <div class="cbp-caption-defaultWrap">
                                 <img src="assets/images/w5.jpg" alt="">
@@ -500,8 +503,8 @@
                         </a>
                         <a href="assets/ajax-awesome-work/project5.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
                         <div class="cbp-l-grid-work-desc">Web Design / Identity</div>
-                    </div><!--work item-->
-                    <div class="cbp-item identity web-design">
+                    </div>--><!--work item-->
+                    <!--<div class="cbp-item identity web-design">
                         <a href="assets/ajax-awesome-work/project6.html" class="cbp-caption cbp-singlePage" rel="nofollow">
                             <div class="cbp-caption-defaultWrap">
                                 <img src="assets/images/w6.jpg" alt="">
@@ -510,7 +513,7 @@
                         </a>
                         <a href="assets/ajax-awesome-work/project6.html" class="cbp-l-grid-work-title cbp-singlePage" rel="nofollow">Project Title</a>
                         <div class="cbp-l-grid-work-desc">Identity / Web Design</div>
-                    </div><!--work item-->
+                    </div>--><!--work item-->
                 </div><!--grid end-->
 
                 <!--<div id="js-loadMore-awesome-work" class="cbp-l-loadMore-button">
@@ -519,7 +522,7 @@
                         <span class="cbp-l-loadMore-loadingText">LOADING...</span>
                         <span class="cbp-l-loadMore-noMoreLoading">NO MORE WORKS</span>
                     </a>
-                </div-->><!--work load more-->               
+                </div--><!--work load more-->               
             </div><!--container end-->
         </section>
         <!--portfolio end-->
