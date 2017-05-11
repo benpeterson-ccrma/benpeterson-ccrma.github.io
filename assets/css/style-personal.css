@@ -876,7 +876,7 @@ Portfolio styles
 .work-header {
   padding-top: 65px;
   padding-bottom: 10px;
-  background: #333;
+  background: #000;
 }
 .work-header .center-title {
   color: #fff;
@@ -1018,9 +1018,9 @@ Tab style
 /*
 Footer styles
 */
-.footer {
-  padding-top: 30px;
-  background: #333;
+.footer {  
+  background: #000;
+  bottom: 0px;
 }
 .footer span {
   color: #fff;
