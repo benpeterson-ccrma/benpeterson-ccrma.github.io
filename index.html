@@ -596,14 +596,15 @@
                 <div class="row">
                     <div class="col-sm-6 margin-b-30 scrollReveal sr-left">
                         <h4 class="text-uppercase margin-b-30">Say hello to me!</h4>
-                        <form method="post" action="#" class="xone-contact">
+                        <form action="https://formspree.io/ben.micah.peterson@gmail.com"
+                                  method="POST">
                             <div class="row">
                                 <div class="col-sm-12">                                 
                                     <div class=" margin-b-20">
                                         <input type="text" name="name" class="form-control" placeholder="Full Name...." />
                                     </div>
                                     <div class=" margin-b-20">
-                                        <input type="text" name="email" class="form-control" placeholder="Email Address...." />
+                                        <input type="text" name="_replyto" class="form-control" placeholder="Email Address...." />
                                     </div>                          
                                 </div>
                                 <div class="col-sm-12">
@@ -617,9 +618,14 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 text-center">
-                                    <button type="submit" name="submit" class="btn btn-lg btn-skin-border btn-block margin-b-20">Send Message</button>
+                                    <button type="submit" value ="Send" name="submit" class="btn btn-lg btn-skin-border btn-block margin-b-20">Send Message</button>
                                 </div>
                             </div>
+                            <!--
+                                <input type="text" name="name">
+                                <input type="email" name="_replyto">
+                                <input type="submit" value="Send">
+                            </form>-->
                         </form><!--form end-->
                     </div><!--form col end-->
 

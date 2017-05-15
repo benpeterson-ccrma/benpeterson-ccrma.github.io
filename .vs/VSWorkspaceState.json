@@ -2,10 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\ajax-awesome-work",
     "\\assets\\css",
-    "\\assets\\images",
-    "\\assets\\images\\intro-images"
+    "\\assets\\cubeportfolio",
+    "\\assets\\cubeportfolio\\css",
+    "\\assets\\ionicons\\css",
+    "\\assets\\ionicons\\fonts"
   ],
-  "SelectedNode": "\\assets\\images\\exercize.jpg",
+  "SelectedNode": "\\assets\\ajax-awesome-work\\project4.html",
   "PreviewInSolutionExplorer": false
 }
