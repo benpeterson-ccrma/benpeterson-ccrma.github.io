@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets\\ajax-awesome-work",
-    "\\assets\\cubeportfolio",
-    "\\assets\\cubeportfolio\\css",
-    "\\assets\\cubeportfolio\\js",
-    "\\Store",
-    "\\Store\\img"
+    "\\assets",
+    "\\assets\\css",
+    "\\assets\\images",
+    "\\assets\\images\\intro-images"
   ],
-  "SelectedNode": "\\Store\\img\\midi.jpg",
+  "SelectedNode": "\\assets\\images\\exercize.jpg",
   "PreviewInSolutionExplorer": false
 }
