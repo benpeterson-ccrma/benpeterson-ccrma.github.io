@@ -5,8 +5,10 @@
     "\\assets\\ajax-awesome-work",
     "\\assets\\css",
     "\\assets\\cubeportfolio",
-    "\\assets\\cubeportfolio\\css"
+    "\\assets\\cubeportfolio\\css",
+    "\\assets\\cubeportfolio\\img",
+    "\\assets\\images"
   ],
-  "SelectedNode": "\\assets\\ajax-awesome-work\\project9.html",
+  "SelectedNode": "\\assets\\images\\indycrop.jpg",
   "PreviewInSolutionExplorer": false
 }
