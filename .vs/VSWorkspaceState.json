@@ -2,13 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\ajax-awesome-work",
-    "\\assets\\css",
-    "\\assets\\cubeportfolio",
     "\\assets\\cubeportfolio\\css",
-    "\\assets\\cubeportfolio\\img",
-    "\\assets\\images"
+    "\\assets\\cubeportfolio\\img"
   ],
-  "SelectedNode": "\\assets\\images\\indycrop.jpg",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
