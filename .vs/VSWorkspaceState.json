@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\ajax-awesome-work"
+    "\\assets\\ajax-awesome-work",
+    "\\assets\\css",
+    "\\assets\\images"
   ],
   "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
