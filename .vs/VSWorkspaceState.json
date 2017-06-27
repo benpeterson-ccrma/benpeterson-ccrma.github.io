@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
     "\\assets\\bootstrap",
     "\\assets\\bower_components",
     "\\assets\\contact_form",
     "\\assets\\css"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\css\\style-personal.css",
   "PreviewInSolutionExplorer": false
 }
