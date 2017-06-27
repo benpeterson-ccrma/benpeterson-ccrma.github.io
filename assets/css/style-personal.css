@@ -1434,7 +1434,7 @@ cbp-popup-singlePage .cbp-popup-navigation-wrap {
     font-size: 4rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 200px) {
   .hero-static h1 {
     font-size: 3rem;
   }
