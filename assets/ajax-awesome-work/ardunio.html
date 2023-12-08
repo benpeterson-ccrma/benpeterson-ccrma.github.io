@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<body>
+    <div class="cbp-l-project-title">ARDUINO LIGHT INTERFACE</div>
+
+    <div class="container col-md-12">
+        <div class="col-md-12">
+            <div class="space-20"></div>
+            <div class="cbp-l-project-desc-text text-center">
+                <iframe width="840" height="473" src="https://www.youtube.com/embed/luCaAeHjzQs?si=Y_Q_K-hlwmtcwBsf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container col-md-12">
+        <div class="cbp-l-project-desc-text text-center">
+            <p class="content" style="font-size: 18px;">
+                This audio/visual project created in 2013 explored light both as a controller data source to manipulate audio and as an audio visualizer.
+                <br>
+                <br>
+                The system consisted of two Max MSP patches sending and receiving data to an Arduino which in turn was connected to two auxiliary components.
+                The first component was a photo-resistor, capable of converting light into data.
+                This light data was fed into an audio effect Max MSP patch and used as control data to modulate various audio properties,
+                including pitch and temporal aspects. As the intensity of the light source increased,
+                the corresponding audio effects changed. The beginning of the video above demonstrates this effect via a flashlight,
+                where turning on and bringing the flashlight closer to the photo-resistor resulted in different audio modulations.
+                <br>
+                <br>
+                The second component was a four-channel relay with each channel connected to a can light,
+                functioning in tandem with a spectral analysis Max MSP patch.
+                This patch was programmed to identify percussion sounds within a given audio file by analyzing occurrences of transient
+                frequencies in ranges typically associated with a kick drum, a snare drum, and a hi hat.
+                Once the patch determined an appropriate transient had occurred, it sent an on signal to a relay channel which then turned on the associated light.
+                <br>
+                <br>
+                In order to make the light triggers as accurate as possible, the patch had to, in real time, dynamically "tune" itself for a given audio file.
+                This tuning was a large part of what made the project a success and is observable around the 2-minute mark of the video above.
+                Studying that section, one can initially see that the two red lights
+                which were configured to respond to a kick drum event
+                were overly sensitive to any low-end frequency content due to the initial broad acceptance range of frequencies.
+                As the song progressed and the patch analyzed more transient data,
+                it tuned the harmonic content required to trigger the relay, making the triggering of the lights more accurate.
+                <br>
+                <br>
+                The design of this patch was not limited to a single audio file; it was a general-purpose spectral analyzer,
+                adaptable to work with any audio as input, but worked best with audio containing repeated and stable percussion sounds.
+                <br>
+                <br>
+                In its entirety this work explored how visual sources can enhance an auditory experience with the goal
+                being to increase the impact made on an audience.
+            </p>
+        </div>
+        <div class="space-60"></div>
+        <div class="space-60"></div>
+    </div>
+
+
+
+</body>
+
